@@ -85,4 +85,4 @@ jobs:
         destination_repo: 'cnftstats/cnftstats.github.io'
         user_email: 'bosscatbcr@outlook.com'
         user_name: 'bosscatrock'
-        commit_message: 'Commiting files'
+        commit_message: 'bosscat'
