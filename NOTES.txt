@@ -1,0 +1,3 @@
+When creating a new /genpage on another account:
+- Updated the user name and email at the end of the .yml script to match the current account
+- Add the API_TOKEN_GITHUB secret
