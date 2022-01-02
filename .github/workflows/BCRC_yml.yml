@@ -2,7 +2,7 @@ name: buildDashboardBCRC
 
 on:
   schedule:
-    - cron:  "10,25,40,55 * * * *"
+    - cron:  "13,28,43,58 * * * *"
   workflow_dispatch:
     
 jobs: 
@@ -83,6 +83,6 @@ jobs:
       with:
         source_file: 'index.html'
         destination_repo: 'cnftstats/cnftstats.github.io'
-        user_email: 'mathias.schmitz@uclouvain.be'
-        user_name: 'cnftstats'
+        user_email: 'bosscatbcr@outlook.com'
+        user_name: 'bosscatrock'
         commit_message: 'Commiting files'
