@@ -40,18 +40,7 @@ jobs:
         source('gather_clean_data.R')
       shell: Rscript {0}
       
-    # Add new files in data folder, commit along with other modified files, push
-    - name: Commit files data
-      run: |
-        git config --local user.name actions-user
-        git config --local user.email "actions@github.com"
-        git add data/DT.rds
-        git add data/DTL.rds
-        git commit -am "Data updated $(date)"
-        git push origin --force
-      env:
-        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-        username: github-actions
+
     
     - name: Build flexdashboard
       run: |
